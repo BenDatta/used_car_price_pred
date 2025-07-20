@@ -29,6 +29,7 @@ Predict the selling price of used cars based on:
 🧍 Owner count and seller type
 
 📅 Year of manufacture
+
 ------------------------------------------------
 ## **🔍 Dataset Overview**
 
@@ -39,6 +40,7 @@ Predict the selling price of used cars based on:
 🧾 Features: 13
 
 🛠️ Format: .csv
+
 ------------------------------------------------
 ## **⚙️ Workflow Summary**
 
@@ -60,6 +62,7 @@ Transmission type
 Seller type
 
 Ownership history
+
 ------------------------------------------------
 🧹 2. Feature Engineering
 Extracted brand from the car name using .str.split().
@@ -67,6 +70,7 @@ Extracted brand from the car name using .str.split().
 Converted fuel efficiency (mileage) to numeric.
 
 Mapped brands to integer codes for model compatibility.
+
 ------------------------------------------------
 📈 3. Exploratory Data Analysis
 Used sns.pairplot() to explore feature relationships.
@@ -74,6 +78,7 @@ Used sns.pairplot() to explore feature relationships.
 Correlation heatmap to identify the strongest predictors of price.
 
 Identified top contributing features: year, mileage, max_power, engine.
+
 ------------------------------------------------
 🧪 4. Modeling
 Split into training (80%) and test (20%) sets.
@@ -83,13 +88,14 @@ Scaled features using StandardScaler.
 Built a Random Forest Regressor (sklearn.ensemble).
 
 Trained and evaluated model performance.
+
 ------------------------------------------------
 ## **📊 Results**
 Metric	Value
 R² Score	0.93 🚀
 Mean Squared Error (MSE)	0.0568 📉
 
-A strong fit indicating the model can reliably estimate car prices based on feature inputs.
+A strong fit indicates the model can reliably estimate car prices based on feature inputs.
 
 📉 Visual Evaluation
 📌 Actual vs Predicted Plot
