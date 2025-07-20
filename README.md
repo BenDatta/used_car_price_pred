@@ -1,6 +1,7 @@
 🚘 Used Car Price Prediction with Machine Learning
-This project uses real-world used car data to predict selling prices based on multiple features like brand, engine size, mileage, and more. Through robust data cleaning, feature engineering, and model building, we achieved a strong R² score of 0.92+ using Random Forest Regression 🌲.
------------------------------------------------
+
+**This project uses real-world used car data to predict selling prices based on multiple features like brand, engine size, mileage, and more. Through robust data cleaning, feature engineering, and model building, we achieved a strong R² score of 0.92+ using Random Forest Regression 🌲.
+**-----------------------------------------------
 🧰 Tech Stack
 Language: Python
 
