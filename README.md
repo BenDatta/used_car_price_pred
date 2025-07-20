@@ -1,8 +1,9 @@
-🚘 Used Car Price Prediction with Machine Learning
+# **🚘 Used Car Price Prediction with Machine Learning**
 
-**This project uses real-world used car data to predict selling prices based on multiple features like brand, engine size, mileage, and more. Through robust data cleaning, feature engineering, and model building, we achieved a strong R² score of 0.92+ using Random Forest Regression 🌲.
-**-----------------------------------------------
-🧰 Tech Stack
+This project uses real-world used car data to predict selling prices based on multiple features like brand, engine size, mileage, and more. Through robust data cleaning, feature engineering, and model building, we achieved a strong R² score of 0.92+ using Random Forest Regression 🌲
+
+-----------------------------------------------
+## **🧰 Tech Stack**
 Language: Python
 
 Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost (optional)
@@ -14,7 +15,7 @@ EDA & Visualization: Pairplots, Heatmaps, Scatterplots
 Tools: Jupyter Notebooks, pickle for saving models
 
 ------------------------------------------------
-🧠 Objective
+## **🧠 Objective**
 Predict the selling price of used cars based on:
 
 🚙 Car brand and model
@@ -29,7 +30,8 @@ Predict the selling price of used cars based on:
 
 📅 Year of manufacture
 ------------------------------------------------
-🔍 Dataset Overview
+## **🔍 Dataset Overview**
+
 📁 Source: Kaggle
 
 📊 Rows: 8,128
@@ -37,9 +39,9 @@ Predict the selling price of used cars based on:
 🧾 Features: 13
 
 🛠️ Format: .csv
-
-⚙️ Workflow Summary
 ------------------------------------------------
+## **⚙️ Workflow Summary**
+
 ✅ 1. Data Preprocessing
 Cleaned string fields (e.g. mileage, engine, max_power) by removing units and converting to numeric types.
 
@@ -82,7 +84,7 @@ Built a Random Forest Regressor (sklearn.ensemble).
 
 Trained and evaluated model performance.
 ------------------------------------------------
-📊 Results
+## **📊 Results**
 Metric	Value
 R² Score	0.93 🚀
 Mean Squared Error (MSE)	0.0568 📉
